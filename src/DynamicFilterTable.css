@@ -1,0 +1,58 @@
+
+.container {
+  margin: 10px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: 50px auto;
+  grid-gap: 5px;
+}
+
+.container > div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #FFF;
+  border-radius: 5px;
+
+}
+
+.container > .contentTable{
+  display: block;
+  margin-top: 2em;
+}
+
+.contentTable > table {
+  width: 100%;
+  color: black;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+.contentTable tr{
+  border-bottom: 1px solid black;
+}
+
+.contentTable td{
+  height: 20px;
+}
+
+.contentTable tbody>tr:hover{
+  background-color: lightblue;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+
+.container > .searchBar{
+  justify-content: flex-end;
+}
+
+.contentTable thead>tr{
+  border-bottom: 3px solid black;
+  font-weight: bold;
+}
+
