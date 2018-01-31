@@ -2,6 +2,8 @@
 
 This little component was developed with ReactJs. The component can render a dynamic table with a filter in top.
 
+![alt text](https://media.giphy.com/media/3o7WIzH8yjcQuBnccg/giphy.gif)
+
 
 ## Deployment
 
