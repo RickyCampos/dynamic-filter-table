@@ -7,7 +7,7 @@ This little component was developed with ReactJs. The component can render a dyn
 
 Just 
 
-`npm start`  
+`npm install && npm start`  
 
 ## Built With
 
